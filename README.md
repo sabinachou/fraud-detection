@@ -5,13 +5,13 @@ Due to file size limitations, download the dataset from [Google Drive](https://d
 
 # Fraud Detection in Rent Payments
 
-## 📌 Problem Statement
+## Problem Statement
 Detect fraudulent rental transactions using machine learning models based on transaction data.
 
-## 📂 Dataset
+## Dataset
 The dataset used is the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
-## 📁 Repository Structure
+## Repository Structure
 fraud-detection/
 ├── data/
 │   └── creditcard.csv (Download separately)
@@ -28,7 +28,7 @@ git clone https://github.com/sabinachou/fraud-detection.git
 ## Install Dependencies
 pip install -r requirements.txt
 
-## 📊 Model Performance
+## Model Performance
 | Model              | Precision | Recall | F1-Score | AUC-ROC |
 |--------------------|----------|--------|----------|---------|
 | **Logistic Regression** | 0.85 | 0.78 | 0.81 | 0.92 |
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 | **Isolation Forest** | 0.10 | 0.85 | 0.18 | 0.89 |
 | **One-Class SVM**  | 0.05 | 0.81 | 0.09 | 0.89 |
 
-**🔹 Best Model:** `XGBoost` achieves the **highest F1-score of 0.86** and **AUC-ROC of 0.95**.
+** Best Model:** `XGBoost` achieves the **highest F1-score of 0.86** and **AUC-ROC of 0.95**.
 
 ## Future Improvements
 Hyperparameter tuning for better fraud detection accuracy.
